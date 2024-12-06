@@ -4,3 +4,131 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.container-grid{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.img-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.form{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form h2{
+    font-size: 32px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.form .text{
+    display: block;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.input-content{
+    margin-bottom: 18px;
+}
+
+.input-content label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.input-content input[type="text"],
+.input-content input[type="password"],
+.input-content input[type="submit"]{
+    width: 384px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.input-content [type="text"]:focus,
+.input-content [type="password"]:focus{
+    outline: none;
+    border-color: #7C3AED;
+    box-shadow:  0 0 0 1px rgba(99, 102, 241, 0.01);
+}
+
+.input-content input[type="submit"]{
+    background-color: #7C3AED; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-content input[type="submit"]:hover{
+    background-color: #9F67FF;
+}
+
+.input-content ::placeholder{
+    color: #777;
+    font-size: 14px;
+}
+
+.input-remember{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.input-remember a{
+    text-decoration: none;
+    color: #7C3AED;  
+}
+
+.input-remember a:hover{
+    text-decoration: underline;  
+}
+
+.input-content p{   
+    text-align: center;
+    color: #6b7280;
+}
+
+.input-content p a{
+    text-decoration: none;
+    color: #7C3AED;
+}
+
+.input-content p a:hover{
+    text-decoration: underline;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+
+.container-img img{
+    height: 100vh;
+    width: 100%;
+}
+
+
+    
